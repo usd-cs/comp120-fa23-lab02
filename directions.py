@@ -1,4 +1,5 @@
 class Player:
+    """ Class representing a player in a 2D world. """
     x: int
     y: int
 
@@ -41,7 +42,7 @@ def main() -> None:
     print(f"Player moved to {player1.location()}")
 
     # move the player east
-    player1.move("east")
+    player1.move("eas")
     print(f"Player moved to {player1.location()}")
 
     # move the player south
