@@ -1,15 +1,25 @@
-def foo(x: int) -> int:
+"""
+Module: type_checking
+
+A instructional module to illuminate type hints.
+
+Author: Dr. Sat Garcia (sat@sandiego.edu)
+"""
+
+# add imports after this line
+
+def loyd(x: int) -> int:
     return x*2
 
-def bar(my_list: list[int], i : int):
+def anya(my_list: list[int], i : int):
     if 0 <= i < len(my_list):
         return my_list[i]
     else:
         return None
 
 
-val1 = foo("hello")
+val1 = loyd("yor")
 print(val1)
 
-val2 = bar([5,7,3], -2)
+val2 = anya([5,7,3], -2)
 print(val)
