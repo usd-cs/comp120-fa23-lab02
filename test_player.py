@@ -1,3 +1,11 @@
+"""
+Module: directions
+
+A instructional module for testing with pytest.
+
+Author: Dr. Sat Garcia (sat@sandiego.edu)
+"""
+
 import pytest
 
 from directions import Player
