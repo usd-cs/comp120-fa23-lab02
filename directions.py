@@ -1,3 +1,11 @@
+"""
+Module: directions
+
+A instructional module for enumerated types.
+
+Author: Dr. Sat Garcia (sat@sandiego.edu)
+"""
+
 class Player:
     """ Class representing a player in a 2D world. """
     x: int
